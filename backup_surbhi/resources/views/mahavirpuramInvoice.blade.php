@@ -156,7 +156,7 @@
                   <label class="form-check-label" for="cheque${formId}">Cheque</label>
                 </div>
                 <div class="form-check">
-                  <input type="radio" class="form-check-input" name="paymentMode${formId}" id="cash${formId} cashOPT" value="cash" checked required>
+                  <input type="radio" class="form-check-input" name="paymentMode${formId}" id="cash${formId} cashOPT" value="cash" required>
                   <label class="form-check-label" for="cash${formId}">Cash</label>
                 </div>
               </div>
@@ -251,7 +251,7 @@
                   <label class="form-check-label" for="cheque${formId}">Cheque</label>
                 </div>
                 <div class="form-check">
-                  <input type="radio" class="form-check-input" name="paymentMode${formId}" id="cash${formId} cashOPT" value="cash" checked required>
+                  <input type="radio" class="form-check-input" name="paymentMode${formId}" id="cash${formId} cashOPT" value="cash" required>
                   <label class="form-check-label" for="cash${formId}">Cash</label>
                 </div>
               </div>

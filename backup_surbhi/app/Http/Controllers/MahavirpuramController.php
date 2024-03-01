@@ -98,7 +98,7 @@ class MahavirpuramController extends Controller
         $pushData['panCardNumber'] = $row['panCardNumber'];
         $pushData['chequeNumber'] = $row['chequeNumber'];
         $pushData['chequeDate'] = $row['chequeDate'];
-        $pushData['drawnDate'] = $row['drawnDate'];
+        $pushData['chequedrawnDate'] = $row['chequedrawnDate'];
         $pushData['buildingFund'] = $row['buildingFund'];
         $pushData['youthActivities'] = $row['youthActivities'];
         $pushData['socialAwareness'] = $row['socialAwareness'];
