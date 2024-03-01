@@ -172,7 +172,7 @@
         <script>    
             function printDiv() {
                 var divContents = document.getElementById("print-invoice").innerHTML;
-                var a = window.open('', '', 'height=500, width=500');
+                var a = window.open('', '', 'height=1000, width=1000');
                 a.document.write(divContents);
                 a.document.close();
                 a.print();

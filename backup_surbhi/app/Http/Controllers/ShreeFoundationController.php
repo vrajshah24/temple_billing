@@ -93,10 +93,9 @@ class ShreeFoundationController extends Controller
         $pushData['amountReceived'] = $row['amountReceived'];
         $pushData['paymentMode'] = $row['paymentMode'];
         $pushData['panCardNumber'] = $row['panCardNumber'];
-        
         $pushData['chequeNumber'] = $row['chequeNumber'];
         $pushData['chequeDate'] = $row['chequeDate'];
-        $pushData['drawnDate'] = $row['drawnDate'];
+        $pushData['chequedrawnDate'] = $row['chequedrawnDate'];
         $pushData['buildingFund'] = $row['buildingFund'];
         $pushData['youthActivities'] = $row['youthActivities'];
         $pushData['socialAwareness'] = $row['socialAwareness'];
