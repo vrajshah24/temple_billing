@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Http\Request;
 use App\Models\InvoiceModel;
 use App\Models\InvoiceDetailModel;
-use Illuminate\Http\Request;
 
 class InvoiceController extends Controller
 {

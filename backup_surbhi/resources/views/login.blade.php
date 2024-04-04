@@ -8,12 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
     </link>
+  <style>
+     body {
+    background-image: url('mandir-1.jpg');
+    /* Add more styles as needed */
+    }
+
+    h1{
+      color: orange;
+    }
+  </style>
   <title>Login</title>
 </head>
 <body>
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <div class="container pb-5">
-    <h1 class="text-center mt-5">Login</h1>
+    <h1 class="text-center mt-5">NAMASKAR</h1>
     <form id="loginForm" class="mt-5">
       <div class="form-group">
         <label for="username">Username <span class="text-danger">*</span>:</label>

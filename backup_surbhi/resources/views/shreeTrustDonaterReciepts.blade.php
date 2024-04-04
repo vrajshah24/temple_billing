@@ -185,6 +185,9 @@ li.invoice-wrap strong.highlight {
                 <a class="nav-link" href="{{  url('') }}/addAdmin">Add Admin</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{  url('') }}/addEvent">Add Event</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="{{  url('') }}/logout">Logout</a>
             </li>
         </ul>
@@ -197,7 +200,7 @@ li.invoice-wrap strong.highlight {
                         <div>
                             <p>
                                 <center>
-                                <img decoding="async" loading="lazy" class="aligncenter size-full wp-image-41" src="{{asset('assets/header-1.jpg')}}" alt="" width="1200" height="239" />
+                                <img decoding="async" loading="lazy" class="aligncenter size-full wp-image-41" src="{{asset('assets/header-2.jpg')}}" alt="" width="1200" height="239" />
                                 </center>
                             </p>
                             <div id="container" class="invoice-listing" style="display: flex; justify-content: center; flex-wrap: wrap;">
