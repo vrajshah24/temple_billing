@@ -38,6 +38,7 @@ Route::get('/', function () {
     }
     return view('login');
 });
+//this is a test for commit
 
 Route::get('/events',[EventsController::class, 'index']);
 
