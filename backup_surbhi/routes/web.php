@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EventsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MahavirpuramController;
 use App\Http\Controllers\ShreeFoundationController;
@@ -15,6 +16,9 @@ use App\Http\Controllers\LoginController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/background-image/{imageName}', 'BackgroundImageController@getSpecificImage')->name('background.image');
+
+
 Route::get('/home', function () {
     $admin_id = session('admin_id');
     if($admin_id != ''){
@@ -34,6 +38,10 @@ Route::get('/', function () {
     }
     return view('login');
 });
+//this is a test for commit
+
+Route::get('/events',[EventsController::class, 'index']);
+
 Route::post('/login/authenticate', [LoginController::class, 'authenticate'])->name('authenticate');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 

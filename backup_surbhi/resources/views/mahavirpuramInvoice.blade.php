@@ -26,13 +26,16 @@
                 <a class="nav-link" href="{{  url('') }}/addAdmin">Add Admin</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{  url('') }}/addEvent">Add Event</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="{{  url('') }}/logout">Logout</a>
             </li>
         </ul>
     </div>
 </nav>
   <center>
-  <img class="" src="{{asset('assets/header-2.jpg')}}" alt=""  width="1300" height="239"/>
+  <img class="" src="{{asset('assets/header-2.jpg')}}" alt=""  width="1100" height="235"/>
   </center>
   <div class="container pb-5">
     <h1 class="text-center mt-5">Invoice Generator</h1>

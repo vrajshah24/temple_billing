@@ -188,6 +188,9 @@ li.invoice-wrap strong.highlight {
                 <a class="nav-link" href="{{  url('') }}/addAdmin">Add Admin</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{  url('') }}/addEvent">Add Event</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="{{  url('') }}/logout">Logout</a>
             </li>
         </ul>
